@@ -1,0 +1,13 @@
+extrapolate on this lines with examples
+    // Count last line if file doesn't end with newline
+    if (stats.chars > 0 && ch != '\n') {
+        stats.lines++;
+    }
+
+
+
+why are you using return EXIT_FAILURE; in main instead of exit(EXIT_FAILURE); ?
+
+
+
+why real wc uses mmap() for >100MB files and read() for smaller ones?
